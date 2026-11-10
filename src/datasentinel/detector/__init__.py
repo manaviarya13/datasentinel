@@ -1,0 +1,1 @@
+"""Known-answer detection components."""\n\nfrom .known_answer import (\n    DetectionResult,\n    detect,\n    generate_secret_key,\n    known_answer_detect,\n    render_detection_prompt,\n)\n\n__all__ = [\n    "DetectionResult",\n    "detect",\n    "generate_secret_key",\n    "known_answer_detect",\n    "render_detection_prompt",\n]\n
